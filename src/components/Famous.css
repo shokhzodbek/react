@@ -1,0 +1,42 @@
+.card-famous {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  height: 200px;
+}
+.card-famous img {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+.famous {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 1000px;
+  gap: 10px;
+  margin: auto;
+}
+
+/* 2-kun */
+.card-famous {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  height: 200px;
+}
+.card-famous img {
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+.famous {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 1000px;
+  gap: 10px;
+  margin: auto;
+}

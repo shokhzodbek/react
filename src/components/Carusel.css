@@ -1,0 +1,42 @@
+.container-carusel {
+  height: 400px;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 20px 300px;
+}
+.swiper-right {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 10px;
+}
+.box {
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 10px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
